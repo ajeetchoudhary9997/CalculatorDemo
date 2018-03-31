@@ -1,2 +1,2 @@
 # CalculatorDemo
-This project is just a demo project for machine testing
+This project is just a demo project for machine test.
