@@ -144,8 +144,8 @@ export function checkForLastDigit(finalEquation,operator){
 export function addDigit(state,finalEquation,newDigit){
       if(state.isFinalValueCalculated){
         return newDigit+''
-      }else if(newDigit===0&&finalEquation.length==1&&finalEquation[0]!='0'){
-        return '0'
+      }else if(newDigit==0&&finalEquation.length==1&&finalEquation[0]!='0'){
+        return finalEquation+''+newDigit
       }else if(newDigit==0 && finalEquation.length==1){
         return '0'
       }else if(newDigit!=0 && finalEquation.length==1 && finalEquation[0]=='0'){

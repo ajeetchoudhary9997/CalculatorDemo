@@ -30,7 +30,7 @@ export default class MainScreen extends Component {
       <View style={styles.container}>
          {this.isDevideByZero()}
          <View style={styles.topResultOrEquationContainerStyle}>
-            <Text style={styles.equationOrResultStyle} numberOfLines={5} ellipsizeMode={'head'}>
+            <Text style={styles.equationOrResultStyle} numberOfLines={1} ellipsizeMode={'head'}>
                 {this.props.appState.equation}
             </Text>
         </View>
